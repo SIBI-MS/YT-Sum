@@ -1,2 +1,82 @@
 Ve
 .env
+# Ignore VS Code settings folder
+.vscode/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+ENV/
+# For conda environments
+.conda/
+# For poetry virtual environments
+.poetry/
+
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+# Usually contains an executable in `dist/`, ignore all PyInstaller artifacts
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm project files
+.idea/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Editor-specific backup files
+*~
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Ignore SQLite database files
+*.sqlite3
+
+# Ignore environment variables file
+.env
+.env.*
+
+# Ignore Python wheels
+*.whl
